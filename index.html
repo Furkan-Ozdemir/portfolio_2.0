@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://kit.fontawesome.com/99eb649aff.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <h4>Furkan Özdemir</h4>
+            <nav class="socials-nav">
+                <a href="https://www.instagram.com/furkkkaaan/" class="socials-nav__social">
+                    <i class="fab fa-instagram"></i>
+
+                </a>
+                <a href="https://github.com/Furkan-Ozdemir" class="socials-nav__social">
+                    <i class="fab fa-github"></i>
+
+                </a>
+                <a href="https://www.linkedin.com/in/furkan-o-demir/" class="socials-nav__social">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </nav>
+        </header>
+
+        <section class="about-me-section">
+            <div class="about-me">
+                <div class="about-me__main">
+                    <div class="about-me__main-text">
+                        <h1>Hi I'm Furkan</h1>
+                        <h4>Software Developer</h4>
+                    </div>
+                    <div class="about-me__main-skills">
+                        <p>A passionate Full Stack Web Developer who has experience building applications with
+                            JavaScript / Nodejs / Python / Java
+                        </p>
+                    </div>
+                    <div class="about-me__main-socials">
+                        <nav class="about-me__main-socials-nav">
+                            <a href="https://www.instagram.com/furkkkaaan/" class="about-me-socials-nav__social">
+                                <i class="fab fa-instagram"></i>
+
+                            </a>
+                            <a href="https://github.com/Furkan-Ozdemir" class="about-me-socials-nav__social">
+                                <i class="fab fa-github"></i>
+
+                            </a>
+                            <a href="https://www.linkedin.com/in/furkan-o-demir/" class="about-me-socials-nav__social">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </nav>
+                    </div>
+                    <div class="about-me__main-cv">
+                        <a class="about-me__main-cv-button btn" href="furkan_ozdemir_cv.docx" download="">
+                            resume <i class="fas fa-download" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="about-me__image">
+                    <img class="about-me__image-me" src="img/ben.jpg" alt="bunu değiştir">
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- section divider -->
+
+    <div class="svg-logos">
+        <svg class="svg-logo javascript">
+            <use xlink:href="./img/symbol-defs.svg#icon-javascript"></use>
+        </svg>
+        <svg class="svg-logo nodejs">
+            <use xlink:href="./img/symbol-defs.svg#icon-node-dot-js"></use>
+        </svg>
+        <svg class="svg-logo html5">
+            <use xlink:href="./img/symbol-defs.svg#icon-html5"></use>
+        </svg>
+        <svg class="svg-logo css3">
+            <use xlink:href="./img/symbol-defs.svg#icon-css3"></use>
+        </svg>
+        <svg class="svg-logo sass">
+            <use xlink:href="./img/symbol-defs.svg#icon-sass"></use>
+        </svg>
+        <svg class="svg-logo python">
+            <use xlink:href="./img/symbol-defs.svg#icon-python"></use>
+        </svg>
+        <svg class="svg-logo java">
+            <use xlink:href="./img/symbol-defs.svg#icon-java"></use>
+        </svg>
+        <svg class="svg-logo mongodb">
+            <use xlink:href="./img/symbol-defs.svg#icon-mongodb"></use>
+        </svg>
+        <svg class="svg-logo git">
+            <use xlink:href="./img/symbol-defs.svg#icon-git"></use>
+        </svg>
+        <svg class="svg-logo csharp">
+            <use xlink:href="./img/symbol-defs.svg#icon-csharp"></use>
+        </svg>
+    </div>
+
+    <!-- section divider -->
+
+    <div class="projects_section">
+        <div class="projects_section_header">
+            <h1>My Projects</h1>
+        </div>
+
+        <!-- project-1 start -->
+        <div class="projects_section_project-1 project">
+            <h4 class="project_header">Kaça Çıkarım</h4>
+            <div class="projects_section_project-1_container flex">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide ">
+                            <img class="desktop-image" src="./img/kaca-cikarim-ss.png" />
+                            <img src="./img/kaca-cikarim-ss-mobile-resized.png" class="mobile-image" />
+
+                        </div>
+                        <div class="swiper-slide ">
+                            <img class="mobile-image" src="./img/kaca-cikarim-ss-mobile-map.png" />
+                            <img class="desktop-image" src="./img/kaca-cikarim-ss-map.png" />
+
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+                <div class="projects_section_project-1_explanation">
+                    <p>
+                        Kaça çıkarım is a website that helps you relocate in Istanbul.
+                        Just pick a district and see the details about it
+                    </p>
+                    <p>
+                        Built with: NodeJS, EJS, IMM Open Data API
+                        <a class="istanbul-button btn" href="https://intense-sands-99958.herokuapp.com/">go to
+                            project</a>
+
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        <!-- project-1 end -->
+
+
+        <!-- project-6 start -->
+        <div class="projects_section_project-6 project">
+            <h4 class="project_header">FullStack Calendar</h4>
+            <div class="projects_section_project-6_container flex">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide ">
+                            <img class="desktop-image" src="./img/bilpp-desktop-1.png" />
+                            <!-- <img src="" class="mobile-image" /> -->
+
+                        </div>
+                        <div class="swiper-slide ">
+                            <!-- <img class="mobile-image" src="./img/kaca-cikarim-ss-mobile-map.png" /> -->
+                            <img class="desktop-image" src="./img/bilpp-desktop-2.png" />
+
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+                <div class="projects_section_project-6_explanation">
+                    <p>
+                        It is a fullstack calendar just like google calendar but better. Add ,delete, update tasks and
+                        much more capabilities
+                    </p>
+                    <p>
+                        Built with: NodeJS, MongoDb
+                        <a class="bilpp-button btn" href="https://square-cool-aluminum.glitch.me/">go to
+                            project</a>
+
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- project-6 end -->
+
+        <!-- project-2 start -->
+        <div class="projects_section_project-2 project">
+            <h4 class="project_header">Weather App</h4>
+            <div class="projects_section_project-2_container flex">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide ">
+                            <img class="mobile-image" src="./img/weather-app-ss-mobile.png" />
+                            <img src="./img/weather-app-ss.png" class="desktop-image" />
+
+                        </div>
+                        <div class="swiper-slide ">
+                            <img class="mobile-image" src="./img/weather-app-ss-mobile-result.png" />
+                            <img class="desktop-image" src="./img/weather-app-ss-result.png" />
+
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+                <div class="projects_section_project-2_explanation">
+                    <p>
+                        A basic weather app for let you know that sun screen is important
+                        and necessary
+                    </p>
+                    <p>
+                        Built with: NodeJS, EJS, OpenWeatherMap API <br>
+                        <a class="weather-button btn" href="https://iridescent-deadpan-enigmosaurus.glitch.me/"
+                            target="_blank">go to
+                            project</a>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        <!-- project-2 end -->
+
+
+        <!-- project-3 start -->
+
+        <div class="projects_section_project-3 project">
+            <h4 class="project_header">Todo App</h4>
+            <div class="projects_section_project-3_container flex">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide ">
+                            <img class="mobile-image" src="./img/to-do-mobile-ss.png" />
+                            <img src="./img/to-do-desktop.png" class="desktop-image" />
+
+                        </div>
+                        <div class="swiper-slide ">
+                            <img class="mobile-image" src="./img/to-do-mobile-hire.png" />
+                            <img class="desktop-image" src="./img/to-do-desktop-hire.png" />
+
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+                <div class="projects_section_project-3_explanation">
+                    <p>An online ToDo app to remind you your tasks.</p>
+                    <p>
+                        Built with: NodeJS, EJS
+                        <a class="todo-button btn" href="https://boatneck-dandelion-conchoraptor.glitch.me/"
+                            target="_blank">go to
+                            project</a>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- project-3 end -->
+
+
+        <!-- project-4 start -->
+        <div class="projects_section_project-4 project">
+            <h4 class="project_header">Chess.cs</h4>
+            <div class="projects_section_project-4_container flex">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide ">
+
+                            <img class="chess-img desktop-image mobile-image" src="./img/chess.jpg" />
+
+                        </div>
+                        <div class="swiper-slide ">
+                            <img class="chess-img desktop-image mobile-image" src="./img/chess-2.jpg" />
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+                <div class="projects_section_project-4_explanation">
+                    <p>A Chess game that is playable on the Command Prompt</p>
+                    <p>
+                        Built with: C#
+                        <a class="chess-button btn" href="https://github.com/Furkan-Ozdemir/chess.git"
+                            target="_blank">go to
+                            project</a>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        <!-- project-4 end -->
+
+
+        <!-- project-5 start -->
+
+        <div class="projects_section_project-5 project">
+            <div class="project_header">
+                <h3>Zoom Link Generator</h3>
+            </div>
+            <div class="projects_section_project-5_explanation">
+                <p>
+                    A Python automation script for generating zoom links without a time
+                    constraint. (requires chromedriver to run)
+                </p>
+                <p>
+                    Built with: Python Selenium
+                    <a class="zoom-button btn" href="https://github.com/Furkan-Ozdemir/zoom-link-generator.git"
+                        target="_blank">go to
+                        project</a>
+                </p>
+            </div>
+        </div>
+        <!-- project-5 end -->
+
+
+
+
+    </div>
+
+    <div class="svg-logos skew-right">
+        <svg class="svg-logo">
+            <use xlink:href="./img/symbol-defs.svg#icon-javascript"></use>
+        </svg>
+        <svg class="svg-logo">
+            <use xlink:href="./img/symbol-defs.svg#icon-node-dot-js"></use>
+        </svg>
+        <svg class="svg-logo">
+            <use xlink:href="./img/symbol-defs.svg#icon-html5"></use>
+        </svg>
+        <svg class="svg-logo">
+            <use xlink:href="./img/symbol-defs.svg#icon-css3"></use>
+        </svg>
+        <svg class="svg-logo">
+            <use xlink:href="./img/symbol-defs.svg#icon-sass"></use>
+        </svg>
+        <svg class="svg-logo">
+            <use xlink:href="./img/symbol-defs.svg#icon-python"></use>
+        </svg>
+        <svg class="svg-logo">
+            <use xlink:href="./img/symbol-defs.svg#icon-java"></use>
+        </svg>
+        <svg class="svg-logo">
+            <use xlink:href="./img/symbol-defs.svg#icon-mongodb"></use>
+        </svg>
+        <svg class="svg-logo">
+            <use xlink:href="./img/symbol-defs.svg#icon-git"></use>
+        </svg>
+        <svg class="svg-logo">
+            <use xlink:href="./img/symbol-defs.svg#icon-csharp"></use>
+        </svg>
+    </div>
+
+    <!-- section divider -->
+
+    <section class="contact-me">
+        <h3>Contact Me</h3>
+        <div class="contact-me-container">
+            <form action="/mail" method="POST" class="form">
+                <input type="email" name="email" required placeholder="Email">
+                <input type="text" name="name" required placeholder="Name">
+                <input type="text" name="subject" required placeholder="Subject">
+                <textarea name="message" cols="30" rows="10" placeholder="Message" required></textarea>
+                <button type="submit" class="btn btn-green">Send</button>
+            </form>
+            <nav class="about-me__main-socials-nav contact-me-socials">
+                <a href="https://www.instagram.com/furkkkaaan/"
+                    class="about-me-socials-nav__social contact-me-socials_social">
+                    <i class="fab fa-instagram"></i>
+
+                </a>
+                <a href="https://github.com/Furkan-Ozdemir"
+                    class="about-me-socials-nav__social contact-me-socials_social">
+                    <i class="fab fa-github"></i>
+
+                </a>
+                <a href="https://www.linkedin.com/in/furkan-o-demir/"
+                    class="about-me-socials-nav__social contact-me-socials_social">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </nav>
+        </div>
+    </section>
+
+    <footer>
+        <p>Furkan Özdemir &COPY;</p>
+    </footer>
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+                autoHeight: true,
+            },
+        });
+    </script>
+</body>
+
+</html>
